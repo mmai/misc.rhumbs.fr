@@ -1,10 +1,10 @@
 +++
-title = "Latest posts"
+title = "Derniers billets"
 
 [extra]
-header = { title = "Hi, I'm YOUR_NAME! 👋", img = "img/profile.webp", img_alt = "YOUR_NAME" }
+header = { title = "Bonjour", img = "img/profile.webp", img_alt = "Rhumbs" }
 section_path = "blog/_index.md"
 max_posts = 5
 +++
 
-Welcome to my personal site!
+Bienvenue sur le carnet web de rhumbs / mmai / Henri Bourcereau.
