@@ -3,7 +3,9 @@ title="Pierre Féline"
 id=12
 draft=false
 date=2025-02-17
-tags=[]
+
+[taxonomies]
+tags=["lectures", "vu"]
 +++
 
 La petite chronologie à la fin de _Poésie Perdue_ de Paul Valéry nous révèle que celui-ci a été initié aux Mathématiques par son ami Pierre Féline. L'oxymore poétique de ce nom m'émerveille.

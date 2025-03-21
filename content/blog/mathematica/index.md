@@ -2,7 +2,9 @@
 title="Mathematica"
 id=10
 date=2023-05-14
-tags=["mathématiques", "lu", "Grothendieck"]
+
+[taxonomies]
+tags=["personnel", "lectures", "mathématiques", "Grothendieck"]
 +++
 
 Il y a un peu plus d'un an, début avril 2022, je passais quelques jours à Paris.

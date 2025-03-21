@@ -2,7 +2,9 @@
 title="Promenade géométrique"
 id=7
 date=2021-05-17
-tags=[]
+
+[taxonomies]
+tags=["poésie", "rubik's cube"]
 +++
 
 6x6

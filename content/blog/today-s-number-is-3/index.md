@@ -2,7 +2,9 @@
 title="Today's number is 3"
 id=2
 date=2021-05-10
-tags=["vu"]
+
+[taxonomies]
+tags=["David Lynch", "videos"]
 +++
 
 Non, il n'est pas vain de [regarder](https://www.youtube.com/watch?v=ggl16RIUbVo&ab_channel=DAVIDLYNCHTHEATER) quotidiennement David Lynch mélanger un bocal de balles de ping-pong numérotées de 1 à 10 pour en choisir une à l'aveugle et annoncer le chiffre du jour.
