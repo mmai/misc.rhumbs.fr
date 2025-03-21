@@ -4,7 +4,7 @@ id=3
 date=2021-05-11
 
 [taxonomies]
-tags=["lectures"]
+tags=["lectures", "Roubaud"]
 +++
 
 J'ai voulu moi aussi me confronter à la chance. J'ai ouvert au hasard _The Classical Tradition_ et suis tombé sur un article consacré à Christine de Pizan dont je possède une oeuvre, les _Cent ballades d'amant et de dame_ (je l'avais acquise il y a quelques mois après avoir entendu Jacques Roubaud la conseiller).

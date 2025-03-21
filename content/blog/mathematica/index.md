@@ -4,7 +4,7 @@ id=10
 date=2023-05-14
 
 [taxonomies]
-tags=["personnel", "lectures", "mathématiques", "Grothendieck"]
+tags=["personnel", "lectures", "mathématiques", "Grothendieck", "Roubaud"]
 +++
 
 Il y a un peu plus d'un an, début avril 2022, je passais quelques jours à Paris.

@@ -14,3 +14,6 @@ deploy: build
 
 # new TITLE:
 # 	./bin/new.sh "{{TITLE}}"
+stats:
+  ssh -t root@rhumbs.fr goaccess /var/log/nginx/misc_access.log --log-format=COMBINED -o /var/www/misc.rhumbs.fr/webstats.html
+  firefox https://misc.rhumbs.fr/webstats.html
