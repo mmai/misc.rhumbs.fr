@@ -5,7 +5,7 @@ date=2024-09-03
 tags=["philosophie", "mathematiques", "lu", "voyage", "Grothendieck"]
 +++
 
-J'ai improvisé un voyage dans le nord de l'Europe cet été. Pour occuper les longues sessions de train, j'avais emporté ma liseuse électronique ainsi qu'un "vrai" livre papier de secours, suffisamment épais. Bien m'en a pris : la batterie de mon vieux Kindle s'est épuisée au bout de 3 jours, alors que Jean Valjean et Cosette, essayant d'échapper à Javert et ses sbires dans des ruelles d'un Paris nocturne, se retrouvaient coincés dans un cul de sac.
+J'ai improvisé un voyage dans le nord de l'Europe cet été. Pour occuper les longues sessions de train, j'avais emporté ma liseuse électronique ainsi qu'un "vrai" livre papier de secours, suffisamment épais. <!-- more --> Bien m'en a pris : la batterie de mon vieux Kindle s'est épuisée au bout de 3 jours, alors que Jean Valjean et Cosette, essayant d'échapper à Javert et ses sbires dans des ruelles d'un Paris nocturne, se retrouvaient coincés dans un cul de sac.
 
 Je débute donc la lecture du premier volume de _Récoltes et Semailles_, qui attendait depuis au moins deux ans dans ma pile de livres _à lire_. Mon intérêt pour ce livre de mémoires d'Alexandre Grothendieck avait été renouvelé par la série de podcasts proposée début août par france culture [Alexandre Grothendieck, légende rebelle des mathématiques](https://www.radiofrance.fr/franceculture/podcasts/serie-alexandre-grothendieck-legende-rebelle-des-mathematiques).
 

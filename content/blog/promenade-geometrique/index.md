@@ -7,6 +7,8 @@ tags=[]
 
 6x6
 
+<!-- more -->
+
 plantations verticales  
 permutations cubiques  
 sur les faces du Rubik

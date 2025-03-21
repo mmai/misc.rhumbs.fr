@@ -9,6 +9,8 @@ Il y a un peu plus d'un an, début avril 2022, je passais quelques jours à Pari
 
 J'ai visité la librairie Yvon Lambert, et acheté un exemplaire soldé de _Jacques Roubaud médiéviste_ (excellent) et, sous les arguments du vendeur, un poème de Jacques Roubaud publié une semaine auparavant sous la forme d'une simple page A4.
 
+<!-- more -->
+
 ![Jacques Roubaud médiéviste](jacquesRoubaudMedieviste.jpg)
 
 J'ai attendu la soirée pour me rendre à la librairie/bar _La Belle Hortense_, deuxième étape de cette ballade placée sous le signe de mon Oulipien préféré (_La Belle Hortense_ est le titre d'un roman de Jacques Roubaud), car j'avais appris qu'y était programmée une rencontre avec David Bessis autour de son son livre Mathematica.

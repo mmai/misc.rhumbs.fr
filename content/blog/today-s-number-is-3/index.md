@@ -7,6 +7,8 @@ tags=["vu"]
 
 Non, il n'est pas vain de [regarder](https://www.youtube.com/watch?v=ggl16RIUbVo&ab_channel=DAVIDLYNCHTHEATER) quotidiennement David Lynch mélanger un bocal de balles de ping-pong numérotées de 1 à 10 pour en choisir une à l'aveugle et annoncer le chiffre du jour.
 
+<!-- more -->
+
 historique extrait des commentaires :
 
 > Here we go for today's stats report! It's Day 268!

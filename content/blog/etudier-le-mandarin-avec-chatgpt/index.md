@@ -9,6 +9,8 @@ Moi :
 
 > Could you tell me the story of the three little pigs in mandarin using only simplified characters of HSK3 ?
 
+<!-- more -->
+
 ChatGPT :
 
 > I can certainly try to tell the story of the three little pigs in Mandarin using only simplified characters of HSK3. However, please note that the vocabulary of HSK3 is still quite limited and the story may not be able to convey the full meaning and details.
