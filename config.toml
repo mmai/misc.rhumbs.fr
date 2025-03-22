@@ -263,10 +263,9 @@ socials = [
   { name = "github", url = "https://github.com/mmai/", icon = "github" },
   { name = "bluesky", url = "https://bsky.app/profile/rhumbs.fr", icon = "bluesky" },
   { name = "mastodon", url = "https://mamot.fr/@mmai", icon = "mastodon" },
-  # { name = "soundcloud", url = "https://soundcloud.com/oskerwyld", icon = "soundcloud" },
-  # { name = "instagram", url = "https://instagram.com/oskerwyld", icon = "instagram" },
-  # { name = "youtube", url = "https://youtube.com/@oskerwyld", icon = "youtube" },
-  # { name = "spotify", url = "https://open.spotify.com/artist/5Hv2bYBhMp1lUHFri06xkE", icon = "spotify" },
+  { name = "librarything", url = "https://www.librarything.com/profile/aipotu", icon = "librarything" },
+  { name = "lastFM", url = "https://www.last.fm/user/mmai", icon = "lastfm" },
+  # { name = "signal", url = "https://signal.me/#eu/NjUuxaXUShWIhpZXo5IWfJVUpaYRSwKMfbfSUykOZCLBXdDlX_VKFJCuovibHhUW", icon = "signal" },
 ]
 
 # Fediverse profile.
