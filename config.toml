@@ -2,7 +2,8 @@ base_url = "https://misc.rhumbs.fr"
 title = "Miscellanées"
 description = ""
 author = "Henri Bourcereau"
-theme = "tabi"
+# theme = "tabi"
+theme = "myTabiFork"
 generate_feeds = true
 compile_sass = true
 minify_html = true
@@ -410,3 +411,28 @@ enable_csp = true
 # voting = true
 # page_author_hashes = ""  # hash (or list of hashes) of the author.
 # lazy_loading = true  # Loads when the comments are in the viewport (using the Intersection Observer API).
+
+# microformat2 h-card configuration
+# will identify you on the indieweb (cf. https://microformats.org/wiki/h-card)
+# Comment all this section to completely desactivate
+[extra.hcard]
+# Show card in the section header
+# hidden by default (but still visible to microformats parsers)
+# show_card = true
+# Add your email to the card if extra.email is set and not encoded
+with_mail = false
+# Add your social links to the card
+with_social_links = true
+# Homepage url, default to the value of 'base_url'
+# homepage = "https://myhomepage.net"
+avatar = "img/profile.webp"
+# Display name, default to the value of 'author'
+# full_name = "Henri Bourcereau"
+# Small bio, as shown on social media profiles 
+biography = "Lecteur, codeur"
+# You can add any property from https://microformats.org/wiki/h-card#Properties
+# make sure to replace all '-' characters by '_'
+# Below are some examples
+p_nickname = "rhumbs"
+p_locality = "Bordeaux"
+p_country_name = "France"

@@ -2,7 +2,7 @@
 title = "Derniers billets"
 
 [extra]
-header = { title = "", img = "img/profile.webp", img_alt = "Rhumbs" }
+# header = { title = "", img = "img/profile.webp", img_alt = "Rhumbs" }
 section_path = "blog/_index.md"
 max_posts = 5
 +++
