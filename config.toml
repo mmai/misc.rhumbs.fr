@@ -2,7 +2,8 @@ base_url = "https://misc.rhumbs.fr"
 title = "Miscellanées"
 description = ""
 author = "Henri Bourcereau"
-theme = "tabi"
+# theme = "tabi"
+theme = "myTabiFork"
 generate_feeds = true
 compile_sass = true
 minify_html = true
@@ -410,3 +411,18 @@ enable_csp = true
 # voting = true
 # page_author_hashes = ""  # hash (or list of hashes) of the author.
 # lazy_loading = true  # Loads when the comments are in the viewport (using the Intersection Observer API).
+
+# microformat2 h-card configuration
+# All params except 'fullName' are optional
+[extra.hcard]
+# use extra.email, must not be encoded
+withMail = false
+withSocialLinks = true
+# homepage = "https://myhomepage.net"
+avatar = "img/profile.webp"
+fullName = "Henri Bourcereau"
+pronouns = ["he", "him"]
+nickname = "rhumbs"
+city = "Bordeaux"
+country = "France"
+biography = "Lecteur, codeur"
