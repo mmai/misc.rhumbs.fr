@@ -357,8 +357,10 @@ enable_csp = true
 # self_hosted_url = ""
 
 [extra.webmentions]
-json_path = "webmentions"
 enable = true
+# Directory where webmentions are stored
+# if not specified webmentions are dynamically loaded from webmentions.io
+# js2_path = "webmentions"
 # Specify the domain registered with webmention.io.
 domain = "misc.rhumbs.fr"
 
