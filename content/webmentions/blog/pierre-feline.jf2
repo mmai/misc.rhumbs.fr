@@ -1,0 +1,30 @@
+{
+  "type": "feed",
+  "name": "Webmentions",
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Henri Bourcereau",
+        "photo": "https://misc.rhumbs.fr/img/profile.webp",
+        "url": "https://misc.rhumbs.fr"
+      },
+      "url": "https://misc.rhumbs.fr/blog/indiewebtest4/",
+      "published": "2025-04-27T00:00:00",
+      "wm-received": "2025-04-27T14:11:53Z",
+      "wm-id": 1907628,
+      "wm-source": "https://misc.rhumbs.fr/blog/indiewebtest4/",
+      "wm-target": "https://misc.rhumbs.fr/blog/pierre-feline/",
+      "wm-protocol": "webmention",
+      "name": "Test indieweb 4",
+      "content": {
+        "html": "<p>Deuxième test. Je tente de faire apparaître une webmention sur <a href=\"https://misc.rhumbs.fr/blog/pierre-feline/\">cet article de mon site</a> en utilisant le formulaire.</p>",
+        "text": "Deuxième test. Je tente de faire apparaître une webmention sur cet article de mon site en utilisant le formulaire."
+      },
+      "mention-of": "https://misc.rhumbs.fr/blog/pierre-feline/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    }
+  ]
+}
