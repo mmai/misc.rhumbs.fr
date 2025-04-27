@@ -15,5 +15,3 @@ La petite chronologie à la fin de _Poésie Perdue_ de Paul Valéry nous révèl
 Je n'ai pas appris grand chose sur Pierre Féline en recherchant sur le web, mais j'ai découvert un lieu-dit en Suisse, près d'une aire d'autoroute, avec [des blocs erratiques](https://www.visinand.ch/Blocs_erratiques/Vaud/Crans-Pierre_Feline/Crans-Pierre_Feline.htm), roches amenées là "à dos de glacier".
 
 ![Pierre féline](pierreFeline.jpeg)
-
-{{ webmentions() }}

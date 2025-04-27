@@ -4,7 +4,7 @@
   env.GREET = "devenv";
 
   # https://devenv.sh/packages/
-  packages = [ pkgs.act pkgs.zola pkgs.just ];
+  packages = [ pkgs.act pkgs.zola pkgs.just pkgs.uglify-js ];
 
   # https://devenv.sh/languages/
   # languages.rust.enable = true;

@@ -358,15 +358,11 @@ enable_csp = true
 
 [extra.webmentions]
 enable = true
-# Directory where webmentions are stored
-# if not specified webmentions are dynamically loaded from webmentions.io
-# js2_path = "webmentions"
+# Directory where webmentions are stored, relative to 'content/'
+# if not specified webmentions are dynamically loaded from webmentions.io via javascript
+# jf2_path = "webmentions"
 # Specify the domain registered with webmention.io.
 domain = "misc.rhumbs.fr"
-
-# The HTML ID for the object to fill in with the webmention data.
-# Defaults to "webmentions"
-# id = "webmentions"
 
 # data configuration for the webmention.min.js script
 # The base URL to use for this page. Defaults to window.location
@@ -380,25 +376,6 @@ domain = "misc.rhumbs.fr"
 
 # The maximum number of mentions to retrieve. Defaults to 30.
 # max_webmentions = 30 
-
-# By default, Webmentions render using the mf2 'url' element, which plays
-# nicely with webmention bridges (such as brid.gy and telegraph)
-# but allows certain spoofing attacks. If you would like to prevent
-# spoofing, set this to a non-empty string (e.g. "true").
-# prevent_spoofing 
-
-# What to order the responses by; defaults to 'published'. See
-# https://github.com/aaronpk/webmention.io#api
-# sort_by 
-
-# The order to sort the responses by; defaults to 'up' (i.e. oldest
-# first). See https://github.com/aaronpk/webmention.io#api
-# sort_dir 
-
-# If set to a non-empty string (e.g. "true"), will display comment-type responses
-# (replies/mentions/etc.) as being part of the reactions
-# (favorites/bookmarks/etc.) instead of in a separate comment list.
-# comments_are_reactions = "true"
 
 # giscus support for comments. https://giscus.app
 # Setup instructions: https://welpo.github.io/tabi/blog/comments/#setup
