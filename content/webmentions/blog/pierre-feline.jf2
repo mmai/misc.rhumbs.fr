@@ -25,6 +25,30 @@
       "mention-of": "https://misc.rhumbs.fr/blog/pierre-feline/",
       "wm-property": "mention-of",
       "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://misc.rhumbs.fr/blog/webmention-without-hcard/",
+      "published": "2025-05-08T00:00:00",
+      "wm-received": "2025-05-08T13:12:55Z",
+      "wm-id": 1909990,
+      "wm-source": "http://misc.rhumbs.fr/blog/webmention-without-hcard/",
+      "wm-target": "https://misc.rhumbs.fr/blog/pierre-feline/",
+      "wm-protocol": "webmention",
+      "name": "webmention without hcard",
+      "content": {
+        "html": "<p>Test : webmention to <a href=\"https://misc.rhumbs.fr/blog/pierre-feline/\">pierre feline</a> without minimal hcard</p>",
+        "text": "Test : webmention to pierre feline without minimal hcard"
+      },
+      "mention-of": "https://misc.rhumbs.fr/blog/pierre-feline/",
+      "wm-property": "mention-of",
+      "wm-private": false
     }
   ]
 }
