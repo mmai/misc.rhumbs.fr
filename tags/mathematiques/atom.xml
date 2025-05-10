@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://misc.rhumbs.fr/feed_style.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+    <tabi:metadata xmlns:tabi="https://github.com/welpo/tabi">
+        <tabi:base_url>https:&#x2F;&#x2F;misc.rhumbs.fr</tabi:base_url>
+        <tabi:separator>
+            •
+        </tabi:separator>
+        <tabi:about_feeds>Ceci est un flux web, également connu sous le nom de flux Atom. Abonnez-vous en copiant l&#x27;URL de la barre d&#x27;adresse dans votre lecteur de nouvelles. Visitez About Feeds pour en savoir plus et commencez. C&#x27;est gratuit.</tabi:about_feeds>
+        <tabi:visit_the_site>Visitez le site web</tabi:visit_the_site>
+        <tabi:recent_posts>Articles récents</tabi:recent_posts>
+        <tabi:last_updated_on>Mis à jour le $DATE</tabi:last_updated_on>
+        <tabi:default_theme></tabi:default_theme>
+        <tabi:post_listing_date>date</tabi:post_listing_date>
+        <tabi:current_section>mathematiques</tabi:current_section>
+    </tabi:metadata><link rel="extra-stylesheet" href="https://misc.rhumbs.fr/skins/mint.css?h=504215cf6bc10586b487" /><title>Miscellanées - mathematiques</title>
+    <link href="https://misc.rhumbs.fr/tags/mathematiques/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://misc.rhumbs.fr/tags/mathematiques/" rel="alternate" type="text/html"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-09-03T00:00:00+00:00</updated>
+    <id>https://misc.rhumbs.fr/tags/mathematiques/atom.xml</id><entry xml:lang="fr">
+        <title>Comment j&#x27;ai lu Simone Weil à cause d&#x27;une batterie défaillante</title>
+        <published>2024-09-03T00:00:00+00:00</published>
+        <updated>2024-09-03T00:00:00+00:00</updated>
+        <author>
+            <name>Henri Bourcereau</name>
+        </author>
+        <link rel="alternate" href="https://misc.rhumbs.fr/blog/comment-j-ai-lu-simone-weil-a-cause-d-une-batterie-defaillante/" type="text/html"/>
+        <id>https://misc.rhumbs.fr/blog/comment-j-ai-lu-simone-weil-a-cause-d-une-batterie-defaillante/</id>
+        
+            <content type="html">&lt;p&gt;J’ai improvisé un voyage dans le nord de l’Europe cet été. Pour occuper les longues sessions de train, j’avais emporté ma liseuse électronique ainsi qu’un “vrai” livre papier de secours, suffisamment épais. Bien m’en a pris : la batterie de mon vieux Kindle s’est épuisée au bout de 3 jours, alors que Jean Valjean et Cosette, essayant d’échapper à Javert et ses sbires dans des ruelles d’un Paris nocturne, se retrouvaient coincés dans un cul de sac.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;Je débute donc la lecture du premier volume de &lt;em&gt;Récoltes et Semailles&lt;&#x2F;em&gt;, qui attendait depuis au moins deux ans dans ma pile de livres &lt;em&gt;à lire&lt;&#x2F;em&gt;. Mon intérêt pour ce livre de mémoires d’Alexandre Grothendieck avait été renouvelé par la série de podcasts proposée début août par france culture &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.radiofrance.fr&#x2F;franceculture&#x2F;podcasts&#x2F;serie-alexandre-grothendieck-legende-rebelle-des-mathematiques&quot;&gt;Alexandre Grothendieck, légende rebelle des mathématiques&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;misc.rhumbs.fr&#x2F;blog&#x2F;comment-j-ai-lu-simone-weil-a-cause-d-une-batterie-defaillante&#x2F;recoltesEtSemailles.jpg&quot; alt=&quot;Récoltes et semailles&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Le lendemain je visite une librairie de Stokholm qui met en avant un livre dont le titre attire mon attention : &lt;em&gt;The Weil Conjectures&lt;&#x2F;em&gt; de Karen Olsson, ces mêmes conjectures de Weil dont je venait d’apprendre le rôle fondamental dans les travaux de Grothendieck ! (et l’épisode synchronistique se prolongera avec &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.theguardian.com&#x2F;science&#x2F;article&#x2F;2024&#x2F;aug&#x2F;31&#x2F;alexander-grothendieck-huawei-ai-artificial-intelligence&quot;&gt;un article du Guardian consacré à Grothendieck&lt;&#x2F;a&gt; publié le jour suivant…).&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;misc.rhumbs.fr&#x2F;blog&#x2F;comment-j-ai-lu-simone-weil-a-cause-d-une-batterie-defaillante&#x2F;WeilConjectures.jpg&quot; alt=&quot;The Weil Conjectures&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Karen Olsson revient sur la vie et l’oeuvre de André Weil, l’immense mathématicien auteur des conjectures, et de sa soeur Simone Weil philosophe exaltée, morte à 34 ans. J’ai avalé en deux jours son livre passionnant, émouvant, qui m’a convaincu d’essayer de lire l’oeuvre de Simone Weil, alors que l’aspect mystique de celle-ci m’avait rebuté jusqu’alors. Je me suis procuré &lt;em&gt;Réflexions sur les cause de la liberté et de l’oppression sociale&lt;&#x2F;em&gt; dès mon retour en France.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;misc.rhumbs.fr&#x2F;blog&#x2F;comment-j-ai-lu-simone-weil-a-cause-d-une-batterie-defaillante&#x2F;reflexionsSurLesCauses.jpg&quot; alt=&quot;Réflexions sur les cause de la liberté et de l’oppression sociale&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Je n’y ai pas vu de mysticisme (apparaît-il dans ses livres ultérieurs ?), mais au contraire une observation lucide du monde et une impressionnante rigueur intellectuelle, dans une écriture simple aux arguments qui m’ont parus sans faille. Cela rend ce petit livre beau et effectivement fondamental, malgré la tristesse qui m’a pris en lisant les implacables analyses que Simone fait du fonctionnement de notre société.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Toute espèce de vertu a sa source dans la rencontre qui heurte la pensée humaine à une matière sans indulgence et sans perfidie. On ne peut rien concevoir de plus grand pour l’homme qu’un sort qui le mette directement aux prises avec la nécessité nue, sans qu’il n’ait rien à atttendre que de soi, et tel que sa vie soit une perpétuelle création de lui-même par lui-même.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+</content>
+        <summary type="html">J’ai improvisé un voyage dans le nord de l’Europe cet été. Pour occuper les longues sessions de train, j’avais emporté ma liseuse électronique ainsi qu’un “vrai” livre papier de secours, suffisamment épais. Bien m’en a pris : la batterie de mon vieux Kindle s’est épuisée au bout de 3 jours, alors que Jean Valjean et Cosette, essayant d’échapper à Javert et ses sbires dans des ruelles d’un Paris nocturne, se retrouvaient coincés dans un cul de sac…</summary>
+        </entry><entry xml:lang="fr">
+        <title>Mathematica</title>
+        <published>2023-05-14T00:00:00+00:00</published>
+        <updated>2023-05-14T00:00:00+00:00</updated>
+        <author>
+            <name>Henri Bourcereau</name>
+        </author>
+        <link rel="alternate" href="https://misc.rhumbs.fr/blog/mathematica/" type="text/html"/>
+        <id>https://misc.rhumbs.fr/blog/mathematica/</id>
+        
+            <content type="html">&lt;p&gt;Il y a un peu plus d’un an, début avril 2022, je passais quelques jours à Paris.&lt;&#x2F;p&gt;
+&lt;p&gt;J’ai visité la librairie Yvon Lambert, et acheté un exemplaire soldé de &lt;em&gt;Jacques Roubaud médiéviste&lt;&#x2F;em&gt; (excellent) et, sous les arguments du vendeur, un poème de Jacques Roubaud publié une semaine auparavant sous la forme d’une simple page A4.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;misc.rhumbs.fr&#x2F;blog&#x2F;mathematica&#x2F;jacquesRoubaudMedieviste.jpg&quot; alt=&quot;Jacques Roubaud médiéviste&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;J’ai attendu la soirée pour me rendre à la librairie&#x2F;bar &lt;em&gt;La Belle Hortense&lt;&#x2F;em&gt;, deuxième étape de cette ballade placée sous le signe de mon Oulipien préféré (&lt;em&gt;La Belle Hortense&lt;&#x2F;em&gt; est le titre d’un roman de Jacques Roubaud), car j’avais appris qu’y était programmée une rencontre avec David Bessis autour de son son livre Mathematica.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;misc.rhumbs.fr&#x2F;blog&#x2F;mathematica&#x2F;mathematica.jpeg&quot; alt=&quot;Mathematica&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Arrivé quelques minutes avant l’heure, je me suis installé non loin du bar où étaient déjà accoudés l’auteur et des amis à lui, et j’ai commandé un verre de vin, pour me donner contenance et patienter. Nous avons patienté collectivement, mais les gens ne sont pas venus. Je n’osais pas me manifester, je restais à boire doucement mon verre, en écoutant David Bessis et ses amis qui essayaient de combattre leur déception de ne voir personne arriver.&lt;&#x2F;p&gt;
+&lt;p&gt;Deux jeunes filles que je n’avais pas remarquées, peut-être japonaises, sont sorties et ont pris la facade en photo, l’une avait un tote bag &lt;em&gt;Yvon Lambert&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;J’ai attendu la sortie de &lt;em&gt;Mathematica&lt;&#x2F;em&gt; au format poche, en mars de cette année, pour finalement l’acheter. Je l’ai beaucoup aimé.&lt;&#x2F;p&gt;
+&lt;p&gt;David Bessis essaie d’identifier les processus de pensée des mathématiciens. Il reprend les codes du livre de développement personnel (de façon parfois un peu lourde il est vrai) pour nous livrer son idée centrale : le but des mathématiciens est de développer une intuition des divers objets mathématiques, qu’il assimile au &lt;em&gt;systeme 1&lt;&#x2F;em&gt; de Kahneman, en utilisant la rigueur des démonstrations logiques des mathématiques qu’il voit comme un &lt;em&gt;systeme 3&lt;&#x2F;em&gt;, plus lent encore que le &lt;em&gt;systeme 2&lt;&#x2F;em&gt; de Kahneman mais permettant d’identifier les erreurs du &lt;em&gt;systeme 1&lt;&#x2F;em&gt; et de l’affiner.&lt;&#x2F;p&gt;
+&lt;p&gt;C’est aussi pour lui le prétexte de nombreuses anecdotes autour de la vie de grands mathématiciens (Descartes, Grothendieck, Gauss,…) ou d’initiation à quelques domaines mathématiques fascinants, comme la quatrième dimension dont l’étude allait occuper une bonne part de mon temps libre les semaines suivantes.&lt;&#x2F;p&gt;
+</content>
+        <summary type="html">Il y a un peu plus d’un an, début avril 2022, je passais quelques jours à Paris.
+J’ai visité la librairie Yvon Lambert, et acheté un exemplaire soldé de Jacques Roubaud médiéviste (excellent) et, sous les arguments du vendeur, un poème de Jacques Roubaud publié une semaine auparavant sous la forme d’une simple page A4…</summary>
+        </entry>
+</feed>

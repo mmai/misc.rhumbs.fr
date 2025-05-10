@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://misc.rhumbs.fr/feed_style.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+    <tabi:metadata xmlns:tabi="https://github.com/welpo/tabi">
+        <tabi:base_url>https:&#x2F;&#x2F;misc.rhumbs.fr</tabi:base_url>
+        <tabi:separator>
+            •
+        </tabi:separator>
+        <tabi:about_feeds>Ceci est un flux web, également connu sous le nom de flux Atom. Abonnez-vous en copiant l&#x27;URL de la barre d&#x27;adresse dans votre lecteur de nouvelles. Visitez About Feeds pour en savoir plus et commencez. C&#x27;est gratuit.</tabi:about_feeds>
+        <tabi:visit_the_site>Visitez le site web</tabi:visit_the_site>
+        <tabi:recent_posts>Articles récents</tabi:recent_posts>
+        <tabi:last_updated_on>Mis à jour le $DATE</tabi:last_updated_on>
+        <tabi:default_theme></tabi:default_theme>
+        <tabi:post_listing_date>date</tabi:post_listing_date>
+        <tabi:current_section>rubik&#x27;s cube</tabi:current_section>
+    </tabi:metadata><link rel="extra-stylesheet" href="https://misc.rhumbs.fr/skins/mint.css?h=504215cf6bc10586b487" /><title>Miscellanées - rubik&#x27;s cube</title>
+    <link href="https://misc.rhumbs.fr/tags/rubik-s-cube/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://misc.rhumbs.fr/tags/rubik-s-cube/" rel="alternate" type="text/html"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2021-05-17T00:00:00+00:00</updated>
+    <id>https://misc.rhumbs.fr/tags/rubik-s-cube/atom.xml</id><entry xml:lang="fr">
+        <title>Promenade géométrique</title>
+        <published>2021-05-17T00:00:00+00:00</published>
+        <updated>2021-05-17T00:00:00+00:00</updated>
+        <author>
+            <name>Henri Bourcereau</name>
+        </author>
+        <link rel="alternate" href="https://misc.rhumbs.fr/blog/promenade-geometrique/" type="text/html"/>
+        <id>https://misc.rhumbs.fr/blog/promenade-geometrique/</id>
+        
+            <content type="html">&lt;p&gt;6x6&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;plantations verticales&lt;br &#x2F;&gt;
+permutations cubiques&lt;br &#x2F;&gt;
+sur les faces du Rubik
+face au mur végétal&lt;br &#x2F;&gt;
+dans les vitres miroirs&lt;br &#x2F;&gt;
+réflexions rotatoires&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;misc.rhumbs.fr&#x2F;blog&#x2F;promenade-geometrique&#x2F;meditationsCubiques.jpg&quot; alt=&quot;esplanade Charles de Gaulle&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+        <summary type="html">6x6…</summary>
+        </entry><entry xml:lang="fr">
+        <title>Rubik&#x27;s cube</title>
+        <published>2021-05-12T00:00:00+00:00</published>
+        <updated>2021-05-12T00:00:00+00:00</updated>
+        <author>
+            <name>Henri Bourcereau</name>
+        </author>
+        <link rel="alternate" href="https://misc.rhumbs.fr/blog/rubik-s-cube/" type="text/html"/>
+        <id>https://misc.rhumbs.fr/blog/rubik-s-cube/</id>
+        
+            <content type="html">&lt;p&gt;Ça a commencé par un docu émouvant sur le monde du Rubik’s cube compétitif. Les apparitions de l’objet se sont depuis multipliées. Je le vois surgir dans des tweets et l’ai croisé dans les deux derniers romans que j’ai lus : &lt;em&gt;Solénoide&lt;&#x2F;em&gt; de Mircea Cartarescu et &lt;em&gt;La Section Lucky&lt;&#x2F;em&gt; de Frédéric Schmitter.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;Son influence s’est propagé à mes promenades sur le web, au cours desquelles j’ai récolté quelques Oulipiennes pépites comme &lt;a class=&quot;external&quot; href=&quot;http:&#x2F;&#x2F;graner.name&#x2F;nicolas&#x2F;OULIPO&#x2F;haikubik-exp.html?j=9f4499db&quot;&gt;le Haikubik&lt;&#x2F;a&gt; ou la courte nouvelle &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.sciphijournal.org&#x2F;index.php&#x2F;2019&#x2F;12&#x2F;20&#x2F;rubiks-cube&#x2F;&quot;&gt;Rubik’s Cube&lt;&#x2F;a&gt; de Pablo Martín Sánchez.&lt;&#x2F;p&gt;
+</content>
+        <summary type="html">Ça a commencé par un docu émouvant sur le monde du Rubik’s cube compétitif. Les apparitions de l’objet se sont depuis multipliées. Je le vois surgir dans des tweets et l’ai croisé dans les deux derniers romans que j’ai lus : Solénoide de Mircea Cartarescu et La Section Lucky de Frédéric Schmitter…</summary>
+        </entry>
+</feed>

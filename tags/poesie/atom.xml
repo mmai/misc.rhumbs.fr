@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://misc.rhumbs.fr/feed_style.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+    <tabi:metadata xmlns:tabi="https://github.com/welpo/tabi">
+        <tabi:base_url>https:&#x2F;&#x2F;misc.rhumbs.fr</tabi:base_url>
+        <tabi:separator>
+            •
+        </tabi:separator>
+        <tabi:about_feeds>Ceci est un flux web, également connu sous le nom de flux Atom. Abonnez-vous en copiant l&#x27;URL de la barre d&#x27;adresse dans votre lecteur de nouvelles. Visitez About Feeds pour en savoir plus et commencez. C&#x27;est gratuit.</tabi:about_feeds>
+        <tabi:visit_the_site>Visitez le site web</tabi:visit_the_site>
+        <tabi:recent_posts>Articles récents</tabi:recent_posts>
+        <tabi:last_updated_on>Mis à jour le $DATE</tabi:last_updated_on>
+        <tabi:default_theme></tabi:default_theme>
+        <tabi:post_listing_date>date</tabi:post_listing_date>
+        <tabi:current_section>poésie</tabi:current_section>
+    </tabi:metadata><link rel="extra-stylesheet" href="https://misc.rhumbs.fr/skins/mint.css?h=504215cf6bc10586b487" /><title>Miscellanées - poésie</title>
+    <link href="https://misc.rhumbs.fr/tags/poesie/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://misc.rhumbs.fr/tags/poesie/" rel="alternate" type="text/html"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2021-05-17T00:00:00+00:00</updated>
+    <id>https://misc.rhumbs.fr/tags/poesie/atom.xml</id><entry xml:lang="fr">
+        <title>Promenade géométrique</title>
+        <published>2021-05-17T00:00:00+00:00</published>
+        <updated>2021-05-17T00:00:00+00:00</updated>
+        <author>
+            <name>Henri Bourcereau</name>
+        </author>
+        <link rel="alternate" href="https://misc.rhumbs.fr/blog/promenade-geometrique/" type="text/html"/>
+        <id>https://misc.rhumbs.fr/blog/promenade-geometrique/</id>
+        
+            <content type="html">&lt;p&gt;6x6&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;plantations verticales&lt;br &#x2F;&gt;
+permutations cubiques&lt;br &#x2F;&gt;
+sur les faces du Rubik
+face au mur végétal&lt;br &#x2F;&gt;
+dans les vitres miroirs&lt;br &#x2F;&gt;
+réflexions rotatoires&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;misc.rhumbs.fr&#x2F;blog&#x2F;promenade-geometrique&#x2F;meditationsCubiques.jpg&quot; alt=&quot;esplanade Charles de Gaulle&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+        <summary type="html">6x6…</summary>
+        </entry>
+</feed>

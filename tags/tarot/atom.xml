@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://misc.rhumbs.fr/feed_style.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+    <tabi:metadata xmlns:tabi="https://github.com/welpo/tabi">
+        <tabi:base_url>https:&#x2F;&#x2F;misc.rhumbs.fr</tabi:base_url>
+        <tabi:separator>
+            •
+        </tabi:separator>
+        <tabi:about_feeds>Ceci est un flux web, également connu sous le nom de flux Atom. Abonnez-vous en copiant l&#x27;URL de la barre d&#x27;adresse dans votre lecteur de nouvelles. Visitez About Feeds pour en savoir plus et commencez. C&#x27;est gratuit.</tabi:about_feeds>
+        <tabi:visit_the_site>Visitez le site web</tabi:visit_the_site>
+        <tabi:recent_posts>Articles récents</tabi:recent_posts>
+        <tabi:last_updated_on>Mis à jour le $DATE</tabi:last_updated_on>
+        <tabi:default_theme></tabi:default_theme>
+        <tabi:post_listing_date>date</tabi:post_listing_date>
+        <tabi:current_section>tarot</tabi:current_section>
+    </tabi:metadata><link rel="extra-stylesheet" href="https://misc.rhumbs.fr/skins/mint.css?h=504215cf6bc10586b487" /><title>Miscellanées - tarot</title>
+    <link href="https://misc.rhumbs.fr/tags/tarot/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://misc.rhumbs.fr/tags/tarot/" rel="alternate" type="text/html"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2021-08-15T00:00:00+00:00</updated>
+    <id>https://misc.rhumbs.fr/tags/tarot/atom.xml</id><entry xml:lang="fr">
+        <title>Bonne aventure</title>
+        <published>2021-08-15T00:00:00+00:00</published>
+        <updated>2021-08-15T00:00:00+00:00</updated>
+        <author>
+            <name>Henri Bourcereau</name>
+        </author>
+        <link rel="alternate" href="https://misc.rhumbs.fr/blog/bonne-aventure/" type="text/html"/>
+        <id>https://misc.rhumbs.fr/blog/bonne-aventure/</id>
+        
+            <content type="html">&lt;p&gt;J’ai rencontré un valet et un neuf de coeur sur la route. Ce qui semble être de bon augure selon les manuels de cartomancie.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;misc.rhumbs.fr&#x2F;blog&#x2F;bonne-aventure&#x2F;bonneAventure.jpg&quot; alt=&quot;coeurs abandonnés&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Cela m’a surtout rappelé une une trouvaille similaire, un jour de juin 1996, à Nantes (consacrée ville surréaliste par André Breton) et dûment notée dans mon journal de l’époque :&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Fin d’après-midi, il est temps de retourner à Notre Dame de Monts; je m’apprête
+à ouvrir la portière de ma petite auto lorsque mon attention est attirée par un
+objet tombé près de la roue arriére droite. C’est une carte à jouer, figure contre
+le sol. Je la ramasse, la retourne et Hector, valet de carreau, me présente ses
+deux profils tête-bêche.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;misc.rhumbs.fr&#x2F;blog&#x2F;bonne-aventure&#x2F;valet_carreau.png&quot; alt=&quot;valet de carreau&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Le valet de carreau des cartes usuelles correspond au valet de deniers dans le tarot de Marseille. J’avais aimé le fait d’être tombé sur cette carte un peu excentrique : contrairement aux autres figures son nom est inscrit verticalement, et l’emblème de sa famille -le denier- est représenté deux fois au lieu d’une.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;https:&#x2F;&#x2F;misc.rhumbs.fr&#x2F;blog&#x2F;bonne-aventure&#x2F;valet_denier.png&quot; alt=&quot;valet de deniers&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+        <summary type="html">J’ai rencontré un valet et un neuf de coeur sur la route. Ce qui semble être de bon augure selon les manuels de cartomancie.
+
+Cela m’a surtout rappelé une une trouvaille similaire, un jour de juin 1996, à Nantes (consacrée ville surréaliste par André Breton) et dûment notée dans mon journal de l’époque :…</summary>
+        </entry>
+</feed>

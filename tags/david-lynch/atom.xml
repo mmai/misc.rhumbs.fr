@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://misc.rhumbs.fr/feed_style.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+    <tabi:metadata xmlns:tabi="https://github.com/welpo/tabi">
+        <tabi:base_url>https:&#x2F;&#x2F;misc.rhumbs.fr</tabi:base_url>
+        <tabi:separator>
+            •
+        </tabi:separator>
+        <tabi:about_feeds>Ceci est un flux web, également connu sous le nom de flux Atom. Abonnez-vous en copiant l&#x27;URL de la barre d&#x27;adresse dans votre lecteur de nouvelles. Visitez About Feeds pour en savoir plus et commencez. C&#x27;est gratuit.</tabi:about_feeds>
+        <tabi:visit_the_site>Visitez le site web</tabi:visit_the_site>
+        <tabi:recent_posts>Articles récents</tabi:recent_posts>
+        <tabi:last_updated_on>Mis à jour le $DATE</tabi:last_updated_on>
+        <tabi:default_theme></tabi:default_theme>
+        <tabi:post_listing_date>date</tabi:post_listing_date>
+        <tabi:current_section>David Lynch</tabi:current_section>
+    </tabi:metadata><link rel="extra-stylesheet" href="https://misc.rhumbs.fr/skins/mint.css?h=504215cf6bc10586b487" /><title>Miscellanées - David Lynch</title>
+    <link href="https://misc.rhumbs.fr/tags/david-lynch/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://misc.rhumbs.fr/tags/david-lynch/" rel="alternate" type="text/html"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2021-05-10T00:00:00+00:00</updated>
+    <id>https://misc.rhumbs.fr/tags/david-lynch/atom.xml</id><entry xml:lang="fr">
+        <title>Today&#x27;s number is 3</title>
+        <published>2021-05-10T00:00:00+00:00</published>
+        <updated>2021-05-10T00:00:00+00:00</updated>
+        <author>
+            <name>Henri Bourcereau</name>
+        </author>
+        <link rel="alternate" href="https://misc.rhumbs.fr/blog/today-s-number-is-3/" type="text/html"/>
+        <id>https://misc.rhumbs.fr/blog/today-s-number-is-3/</id>
+        
+            <content type="html">&lt;p&gt;Non, il n’est pas vain de &lt;a class=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=ggl16RIUbVo&amp;amp;ab_channel=DAVIDLYNCHTHEATER&quot;&gt;regarder&lt;&#x2F;a&gt; quotidiennement David Lynch mélanger un bocal de balles de ping-pong numérotées de 1 à 10 pour en choisir une à l’aveugle et annoncer le chiffre du jour.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;historique extrait des commentaires :&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Here we go for today’s stats report! It’s Day 268!&lt;&#x2F;p&gt;
+&lt;p&gt;The sequence so far:
+8, 8, 3, 9, 5, 1, 2, 9, 10, 8, 8, 1, 9, 9, 8, 5, 1, 10, 5, 9, 6, 4, 10, 3, 10, 9, 8, 4, 8, 8, 9, 9, 1, 5, 9, 8, 4, 1, 8, 6, 7, 8, 5, 6, 10, 9, 1, 1, 5, 6, 2, 8, 6, 5, 2, 5, 4, 10, 10, 2, 2, 4, 9, 6, 9, 9, 6, 10, 9, 10, 8, 1, 10, 5, 8, 6, 8, 10, 4, 10, 9, 10, 7, 4, 7, 8, 6, 7, 3, 10, 3, 8, 3, 3, 6, 7, 2, 6, 9, 5, 9, 10, 6, 7, 10, 8, 5, 8, 1, 6, 8, 3, 7, 8, 5, 1, 9, 3, 2, 6, 7, 8, 3, 9, 1, 10, 1, 8, 4, 4, 9, 2, 6, 7, 10, 7, 8, 3, 9, 7, 3, 6, 10, 5, 1, 6, 10, 7, 8, 10, 5, 6, 8, 6, 9, 10, 2, 4, 9, 4, 3, 4, 10, 6, 6, 1, 7, 10, 3, 1, 6, 3, 6, 9, 7, 9, 7, 9, 6, 5, 10, 8, 7, 5, 9, 8, 5, 5, 4, 7, 7, 4, 6, 1, 10, 8, 9, 7, 8, 6, 6, 6, 3, 6, 7, 7, 2, 10, 6, 1, 5, 2, 7, 10, 2, 2, 7, 3, 1, 5, 9, 10, 2, 5, 3, 9, 9, 4, 3, 8, 8, 6, 3, 2, 5, 1, 2, 7, 7, 4, 2, 6, 7, 6, 6, 8, 1, 5, 2, 6, 5, 5, 6, 5, 4, 10, 3, 1, 1, 3, 3, 3, 4, 6, 5, 10, 4, 3&lt;&#x2F;p&gt;
+&lt;p&gt;Sum = 1,598 Average = 5.96 Median = 6&lt;&#x2F;p&gt;
+&lt;p&gt;Digit sum for today’s date:
+1 + 0 + 0 + 5 + 2 + 0 + 2 + 1 = 11
+1 + 1 = 2&lt;&#x2F;p&gt;
+&lt;p&gt;Frequencies:
+1: 22
+2: 18
+3: 24
+4: 19
+5: 27
+6: 37
+7: 26
+8: 33
+9: 31
+10: 31&lt;&#x2F;p&gt;
+&lt;p&gt;Days since last picked:
+1: 9
+2: 19
+3: 0 (After 6 days)
+4: 1
+5: 3
+6: 4
+7: 25
+8: 22
+9: 41
+10: 2&lt;&#x2F;p&gt;
+&lt;p&gt;Longest times spent unpicked:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;3 with 64 days (Days 25-88)&lt;&#x2F;li&gt;
+&lt;li&gt;2 with 49 days (Days 158-206)&lt;&#x2F;li&gt;
+&lt;li&gt;4 with 44 days (Days 85-128)&lt;&#x2F;li&gt;
+&lt;li&gt;2 with 43 days (Days 8-50)&lt;&#x2F;li&gt;
+&lt;li&gt;7 with 41 days (Days 42-82)&lt;&#x2F;li&gt;
+&lt;li&gt;9 with 41 days and counting&lt;&#x2F;li&gt;
+&lt;li&gt;7 with 40 days (Days 1-40)&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;&#x2F;blockquote&gt;
+</content>
+        <summary type="html">Non, il n’est pas vain de regarder quotidiennement David Lynch mélanger un bocal de balles de ping-pong numérotées de 1 à 10 pour en choisir une à l’aveugle et annoncer le chiffre du jour…</summary>
+        </entry>
+</feed>
