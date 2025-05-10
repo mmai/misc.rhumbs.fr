@@ -3,7 +3,8 @@ title = "Miscellanées"
 description = ""
 author = "Henri Bourcereau"
 # theme = "tabi"
-theme = "myTabiFork"
+# theme = "myTabiFork"
+theme = "mmaiTabi"
 generate_feeds = true
 compile_sass = true
 minify_html = true
@@ -360,7 +361,7 @@ enable_csp = true
 enable = true
 # Directory where webmentions are stored, relative to 'content/'
 # if not specified webmentions are dynamically loaded from webmentions.io via javascript
-# jf2_path = "webmentions"
+jf2_path = "webmentions"
 # Specify the domain registered with webmention.io.
 domain = "misc.rhumbs.fr"
 
