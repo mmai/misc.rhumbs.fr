@@ -1,6 +1,5 @@
 dev:
-	git pull
-	zola serve
+	devenv up
 build:
 	zola build
 # save:

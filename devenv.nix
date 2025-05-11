@@ -4,13 +4,14 @@
   env.GREET = "devenv";
 
   # https://devenv.sh/packages/
-  packages = [ pkgs.act pkgs.zola pkgs.just pkgs.uglify-js ];
+  packages = [ pkgs.act pkgs.zola pkgs.just pkgs.uglify-js pkgs.wrangler ];
 
   # https://devenv.sh/languages/
   # languages.rust.enable = true;
 
   # https://devenv.sh/processes/
-  # processes.cargo-watch.exec = "cargo-watch";
+  processes.zola-dev.exec = "zola serve";
+  processes.wrangler.exec = "zola build -u http://localhost:8788 && wrangler pages dev public";
 
   # https://devenv.sh/services/
   # services.postgres.enable = true;
