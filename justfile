@@ -2,6 +2,8 @@ dev:
 	devenv up
 build:
 	zola build
+	jaq --from-file json-feed.jaq public/dump.xml > public/feed.json
+	rm public/dump.xml
 # save:
 # 	git add content	
 # 	git annex add static/media	

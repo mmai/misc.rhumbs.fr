@@ -3,15 +3,24 @@ title = "Miscellanées"
 description = ""
 author = "Henri Bourcereau"
 # theme = "tabiUpstream"
-# theme = "myTabiFork"
-theme = "tabi"
-generate_feeds = true
+theme = "myTabiFork"
+# theme = "tabi"
+# theme = "pullRequest"
 compile_sass = true
 minify_html = true
-build_search_index = true
 default_language = "fr"
-taxonomies = [{ name = "tags", feed = true }]
 
+# The RSS icon will be shown if (1) it's enabled and (2) the following variable is set to true.
+# Note for Zola 0.19.X users: when `feed_filenames` has two filenames, only the first one will be linked in the footer.
+generate_feeds = true
+
+feed_filenames = [
+  "atom.xml",
+  "rss.xml",
+  "dump.xml", # HACK: This just dumps the Tera context as JSON (cf. https://www.wezm.net/v2/posts/2024/json-feed-zola/)
+]
+build_search_index = true
+taxonomies = [{ name = "tags", feed = true }]
 
 [search]
 # Whether to include the title of the page/section in the index.
@@ -29,7 +38,6 @@ include_content = true
 # Accepted value "elasticlunr_javascript" or "elasticlunr_json".
 index_format = "elasticlunr_json"
 
-
 [markdown]
 highlight_code = true
 bottom_footnotes = true
@@ -37,6 +45,7 @@ bottom_footnotes = true
 highlight_theme = "css"
 smart_punctuation = true
 external_links_class = "external"
+feed_icon = true
 
 [extra]
 # Check out the documentation (or the comments below) to learn how to customise tabi:
@@ -242,10 +251,6 @@ menu = [
   { name = "projects", url = "projects", trailing_slash = true },
 ]
 
-# The RSS icon will be shown if (1) it's enabled and (2) the following variable is set to true.
-# Note for Zola 0.19.X users: when `feed_filenames` has two filenames, only the first one will be linked in the footer.
-feed_icon = true
-
 # Show the full post content in the Atom feed.
 # If it's set to false, only the description or summary will be shown.
 full_content_in_feed = true
@@ -362,7 +367,7 @@ enable = true
 # Directory where webmentions are stored, relative to 'content/'
 # if not specified webmentions are dynamically loaded from webmentions.io via javascript
 jf2_path = "webmentions"
-# Specify the domain registered with webmention.io.
+# # Specify the domain registered with webmention.io.
 domain = "misc.rhumbs.fr"
 
 # data configuration for the webmention.min.js script
@@ -380,21 +385,21 @@ domain = "misc.rhumbs.fr"
 
 # giscus support for comments. https://giscus.app
 # Setup instructions: https://welpo.github.io/tabi/blog/comments/#setup
-[extra.giscus]
-# enabled_for_all_posts = false  # Enables giscus on all posts. It can be enabled on individual posts by setting `giscus = true` in the [extra] section of a post's front matter.
-# automatic_loading = true  # If set to false, a "Load comments" button will be shown.
-# repo = "welpo/tabi-comments"
-# repo_id = "R_kgDOJ59Urw"  # Find this value in https://giscus.app/
-# category = "Announcements"
-# category_id = "DIC_kwDOJ59Ur84CX0QG"  # Find this value in https://giscus.app/
-# mapping = "slug"  # Available: pathname; url; title; slug. "slug" will use the post's filename (slug); this is the only way to share comments between languages.
-# strict_title_matching = 1  # 1 to enable, 0 to disable. https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#data-strict
-# enable_reactions = 1  # 1 to enable, 0 to disable.
+# [extra.giscus]
+# enabled_for_all_posts = true         # Enables giscus on all posts. It can be enabled on individual posts by setting `giscus = true` in the [extra] section of a post's front matter.
+# automatic_loading = true             # If set to false, a "Load comments" button will be shown.
+# mapping = "slug"                     # Available: pathname; url; title; slug. "slug" will use the post's filename (slug); this is the only way to share comments between languages.
+# strict_title_matching = 1            # 1 to enable, 0 to disable. https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#data-strict
+# enable_reactions = 1                 # 1 to enable, 0 to disable.
 # comment_box_above_comments = false
 # light_theme = "noborder_light"
 # dark_theme = "noborder_dark"
-# lang = ""  # Leave blank to match the page's language.
+# lang = ""                            # Leave blank to match the page's language.
 # lazy_loading = true
+# repo = "mmai/misc.rhumbs.fr"
+# repo_id = "R_kgDOOLugUw"
+# category = "Announcements"
+# category_id = "DIC_kwDOOLugU84CqiXu"
 
 # utterances support for comments. https://utteranc.es
 # Setup instructions: https://welpo.github.io/tabi/blog/comments/#setup

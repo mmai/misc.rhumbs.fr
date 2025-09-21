@@ -1,0 +1,19 @@
+# vim: ft=jq
+# Generate a JSON feed from context of a Zola feed template
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": .config.title,
+    "home_page_url": .config.base_url,
+    "feed_url": .feed_url | sub("dump\\.xml$"; "feed.json"),
+    "authors": [ { "name": .config.author } ],
+    "language": .config.default_language,
+    "items": .pages | map({
+            "id": .permalink,
+            "url": .permalink,
+            "title": .title,
+            "content_html": .content,
+            "date_published": .date,
+            "tags": .taxonomies.tags,
+    } + if .updated then {"date_modified": .updated} else {} end
+      + if .extra.link then {"external_url": .extra.link} else {} end)
+}
