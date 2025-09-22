@@ -48,6 +48,10 @@ external_links_class = "external"
 feed_icon = true
 
 [extra]
+date_format = "%d %B %Y"
+date_format_long = "%d %B %Y, %R (%Z)"
+date_locale = "fr_FR"
+timezone = "Europe/Paris"
 # Check out the documentation (or the comments below) to learn how to customise tabi:
 # https://welpo.github.io/tabi/blog/mastering-tabi-settings/
 
@@ -361,6 +365,9 @@ enable_csp = true
 # For Plausible: Base URL like "https://plausible.example.com"
 # Leave this field empty if you're using the service's default hosting.
 # self_hosted_url = ""
+
+[extra.microblog]
+show_title = false
 
 [extra.webmentions]
 enable = true
