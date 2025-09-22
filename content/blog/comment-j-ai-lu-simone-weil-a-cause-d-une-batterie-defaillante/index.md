@@ -27,6 +27,6 @@ Je n'y ai pas vu de mysticisme (apparaît-il dans ses livres ultérieurs ?), mai
 
 > Toute espèce de vertu a sa source dans la rencontre qui heurte la pensée humaine à une matière sans indulgence et sans perfidie. On ne peut rien concevoir de plus grand pour l'homme qu'un sort qui le mette directement aux prises avec la nécessité nue, sans qu'il n'ait rien à atttendre que de soi, et tel que sa vie soit une perpétuelle création de lui-même par lui-même.
 
-**Addenda (21 sept. 2025)**
+**MAJ (21 sept. 2025)**
 
 Je viens de terminer _L'enracinement, ou prélude à une déclaration des devoirs envers l'être humain_. Quelle tristesse de voir Simone Weil perdre sa tenue intellectuelle et sombrer dans un intégrisme religieux la menant à aligner des considérations pétries de mauvaise foi pour interdire aux athées toute aptitude au "bien" ou accuser la science d'avoir été le terreau du nazisme.
