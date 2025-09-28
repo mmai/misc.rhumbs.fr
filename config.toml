@@ -48,9 +48,6 @@ external_links_class = "external"
 feed_icon = true
 
 [extra]
-date_format = "%d %B %Y"
-date_format_long = "%d %B %Y, %R (%Z)"
-date_locale = "fr_FR"
 timezone = "Europe/Paris"
 # Check out the documentation (or the comments below) to learn how to customise tabi:
 # https://welpo.github.io/tabi/blog/mastering-tabi-settings/
@@ -247,6 +244,7 @@ favicon_emoji = "🐚"
 
 menu = [
   { name = "blog", url = "blog", trailing_slash = true },
+  # { name = "microblog", url = "microblog", trailing_slash = true },
   # { name = "about", url = "about", trailing_slash = true },
   # { name = "contact", url = "contact", trailing_slash = true },
   # { name = "now", url = "now", trailing_slash = true },
