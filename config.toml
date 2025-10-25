@@ -17,7 +17,7 @@ generate_feeds = true
 feed_filenames = [
   "atom.xml",
   "rss.xml",
-  "dump.xml", # HACK: This just dumps the Tera context as JSON (cf. https://www.wezm.net/v2/posts/2024/json-feed-zola/)
+  # "dump.xml", # HACK: This just dumps the Tera context as JSON (cf. https://www.wezm.net/v2/posts/2024/json-feed-zola/)
 ]
 build_search_index = true
 taxonomies = [{ name = "tags", feed = true }]
@@ -244,7 +244,7 @@ favicon_emoji = "🐚"
 
 menu = [
   { name = "blog", url = "blog", trailing_slash = true },
-  # { name = "microblog", url = "microblog", trailing_slash = true },
+  { name = "microblog", url = "microblog", trailing_slash = true },
   # { name = "about", url = "about", trailing_slash = true },
   # { name = "contact", url = "contact", trailing_slash = true },
   # { name = "now", url = "now", trailing_slash = true },

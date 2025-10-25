@@ -2,7 +2,7 @@
 title="Pierre Féline"
 id=12
 draft=false
-date=2025-02-17
+date=2025-02-17T10:02:00+02:00
 
 [taxonomies]
 tags=["lectures", "liens"]
