@@ -13,9 +13,9 @@ tags=["poésie", "rubik's cube"]
 
 plantations verticales  
 permutations cubiques  
-sur les faces du Rubik
+sur les faces du Rubik  
 face au mur végétal  
-dans les vitres miroirs  
-réflexions rotatoires
+réflexions rotatoires  
+dans les vitres miroirs
 
 ![esplanade Charles de Gaulle](meditationsCubiques.jpg)
