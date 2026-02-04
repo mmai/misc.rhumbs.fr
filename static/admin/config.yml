@@ -28,7 +28,8 @@ collections:
             name: "tags"
             widget: "list"
             default: []
-      - { label: "Featured Image", name: "thumbnail", widget: "image" }
+            required: false
+      - { label: "Featured Image", name: "thumbnail", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "microblog" # Used in routes, e.g., /admin/collections/blog
     label: "Microblog" # Used in the UI
