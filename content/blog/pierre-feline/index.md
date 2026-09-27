@@ -1,8 +1,11 @@
 +++
 title="Pierre Féline"
-id=12
+id=13
 draft=false
 date=2025-02-17T10:02:00+02:00
+
+[extra]
+local_post_image="pierreFeline.jpeg"
 
 [taxonomies]
 tags=["lectures", "liens"]

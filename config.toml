@@ -39,25 +39,19 @@ include_content = true
 index_format = "elasticlunr_json"
 
 [markdown]
-highlight_code = true
 bottom_footnotes = true
-# To use a Zola built-in theme, CSP needs to allow unsafe-inline for style-src.
-highlight_theme = "css"
 smart_punctuation = true
 external_links_class = "external"
-feed_icon = true
+
+[markdown.highlighting]
+theme = "catppuccin-frappe"
+style = "class"
+error_on_missing_language = true
 
 [extra]
 timezone = "Europe/Paris"
 # Check out the documentation (or the comments below) to learn how to customise tabi:
 # https://welpo.github.io/tabi/blog/mastering-tabi-settings/
-
-# Search index format.
-# For Zola 0.17.X users only.
-# This MUST MATCH the setting in [search].index_format.
-# Example: If [search].index_format is "elasticlunr_javascript", set:
-# index_format = "elasticlunr_javascript"
-# index_format = ""
 
 # Use sans-serif font everywhere.
 # By default, the serif font is only used in articles.
@@ -153,12 +147,6 @@ post_listing_date = "date"
 # It has only effect if the section uses indexes metadata (which is only the case for series as of now).
 # Can be set at section levels, following the hierarchy: section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
 post_listing_index_reversed = false # Defaults to false.
-
-# DEPRECATED!
-# Use Zola's built-in `bottom_footnotes = true` in the [markdown] section instead. (Available since v0.19.0)
-# Adds backlinks to footnotes (loads ~500 bytes of JavaScripts).
-# Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
-footnote_backlinks = false
 
 # Enable KaTeX for all posts.
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
@@ -257,6 +245,10 @@ menu = [
 # If it's set to false, only the description or summary will be shown.
 full_content_in_feed = true
 
+# The RSS icon will be shown if (1) it's enabled and (2) the following variable is set to true.
+# Set to true to use the default "rss" icon, or specify a custom icon name (e.g. "square-rss").
+feed_icon = true
+
 # Email address for footer's social section.
 # Protect against spambots:
 # 1. Use base64 for email (convert at https://www.base64encode.org/ or `printf 'your@email.com' | base64`).
@@ -332,6 +324,7 @@ allowed_domains = [
   { directive = "frame-src", domains = [
     "player.vimeo.com",
     "https://www.youtube-nocookie.com",
+    "https://pictures.rhumbs.fr",
   ] },
 ]
 

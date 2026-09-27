@@ -3,6 +3,9 @@ title="Promenade géométrique"
 id=7
 date=2021-05-17
 
+[extra]
+local_post_image="meditationsCubiques.jpg"
+
 [taxonomies]
 tags=["poésie", "rubik's cube"]
 +++

@@ -3,6 +3,9 @@ title="Comment j'ai lu Simone Weil à cause d'une batterie défaillante"
 id=12
 date=2024-09-03
 
+[extra]
+local_post_image="reflexionsSurLesCauses.jpg"
+
 [taxonomies]
 tags=["personnel", "lectures", "philosophie", "mathematiques", "voyages", "Grothendieck"]
 +++
@@ -25,8 +28,8 @@ Karen Olsson revient sur la vie et l'oeuvre de André Weil, l'immense mathémati
 
 Je n'y ai pas vu de mysticisme (apparaît-il dans ses livres ultérieurs ?), mais au contraire une observation lucide du monde et une impressionnante rigueur intellectuelle, dans une écriture simple aux arguments qui m'ont parus sans faille. Cela rend ce petit livre beau et effectivement fondamental, malgré la tristesse qui m'a pris en lisant les implacables analyses que Simone fait du fonctionnement de notre société.
 
-> Toute espèce de vertu a sa source dans la rencontre qui heurte la pensée humaine à une matière sans indulgence et sans perfidie. On ne peut rien concevoir de plus grand pour l'homme qu'un sort qui le mette directement aux prises avec la nécessité nue, sans qu'il n'ait rien à atttendre que de soi, et tel que sa vie soit une perpétuelle création de lui-même par lui-même.
+> Toute espèce de vertu a sa source dans la rencontre qui heurte la pensée humaine à une matière sans indulgence et sans perfidie. On ne peut rien concevoir de plus grand pour l'homme qu'un sort qui le mette directement aux prises avec la nécessité nue, sans qu'il n'ait rien à attendre que de soi, et tel que sa vie soit une perpétuelle création de lui-même par lui-même.
 
 **MAJ (21 sept. 2025)**
 
-Je viens de terminer _L'enracinement, ou prélude à une déclaration des devoirs envers l'être humain_. Quelle tristesse de voir Simone Weil perdre sa tenue intellectuelle et sombrer dans un intégrisme religieux la menant à aligner des considérations pétries de mauvaise foi pour interdire aux athées toute aptitude au "bien" ou accuser la science d'avoir été le terreau du nazisme.
+Je viens de terminer _L'enracinement, ou prélude à une déclaration des devoirs envers l'être humain_. Hélas, immense tristesse, mes craintes s'y réalisent. Simone Weil perd sa tenue intellectuelle et sombre dans un intégrisme religieux la menant à aligner des considérations pétries de mauvaise foi. Elle interdit aux athées toute aptitude au "bien" et accuse la science d'avoir été le terreau du nazisme.

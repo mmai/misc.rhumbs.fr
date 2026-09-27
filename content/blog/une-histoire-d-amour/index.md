@@ -3,6 +3,9 @@ title="Une histoire d'amour"
 id=3
 date=2021-05-11
 
+[extra]
+local_post_image="pizan.webp"
+
 [taxonomies]
 tags=["lectures", "Roubaud"]
 +++
@@ -10,6 +13,8 @@ tags=["lectures", "Roubaud"]
 J'ai voulu moi aussi me confronter à la chance. J'ai ouvert au hasard _The Classical Tradition_ et suis tombé sur un article consacré à Christine de Pizan dont je possède une oeuvre, les _Cent ballades d'amant et de dame_ (je l'avais acquise il y a quelques mois après avoir entendu Jacques Roubaud la conseiller).
 
 <!-- more -->
+
+![Cent ballades d’amant et de dame](pizan.webp)
 
 J'ai lu les treize premières ballades, dans lesquelles l'amant du titre peine à convaincre la dame de lui accorder un début d'amour.
 

@@ -3,11 +3,16 @@ title="Bonne aventure"
 id=8
 date=2021-08-15
 
+[extra]
+local_post_image="bonneAventure.jpg"
+
 [taxonomies]
 tags=["personnel", "tarot"]
 +++
 
 J'ai rencontré un valet et un neuf de coeur sur la route. Ce qui semble être de bon augure selon les manuels de cartomancie.
+
+<!-- more -->
 
 ![coeurs abandonnés](bonneAventure.jpg)
 
