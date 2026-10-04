@@ -1,10 +1,9 @@
 +++
 title="Vides"
 id=15
-date=2026-10-04
+date=2026-10-04T18:00:00+02:00
 
 [extra]
-local_post_image="peyberland.jpg"
 
 [taxonomies]
 tags=["weekly"]
