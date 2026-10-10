@@ -5,7 +5,7 @@ draft=false
 date=2025-02-17T10:02:00+02:00
 
 [extra]
-local_post_image="pierreFeline.jpeg"
+local_post_image="pierreFeline_thumbnail.jpeg"
 
 [taxonomies]
 tags=["lectures", "liens"]

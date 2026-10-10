@@ -4,7 +4,7 @@ id=3
 date=2021-05-11
 
 [extra]
-local_post_image="pizan.webp"
+local_post_image="pizan_thumbnail.webp"
 
 [taxonomies]
 tags=["lectures", "Roubaud"]

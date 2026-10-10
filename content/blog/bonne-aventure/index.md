@@ -4,7 +4,7 @@ id=8
 date=2021-08-15
 
 [extra]
-local_post_image="bonneAventure.jpg"
+local_post_image="bonneAventure_thumbnail.jpg"
 
 [taxonomies]
 tags=["personnel", "tarot"]

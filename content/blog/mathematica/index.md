@@ -4,7 +4,7 @@ id=10
 date=2023-05-14
 
 [extra]
-local_post_image="mathematica.jpeg"
+local_post_image="mathematica_thumbnail.jpeg"
 
 [taxonomies]
 tags=["personnel", "lectures", "mathématiques", "Roubaud"]

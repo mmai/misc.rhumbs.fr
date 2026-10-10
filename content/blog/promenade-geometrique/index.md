@@ -4,7 +4,7 @@ id=7
 date=2021-05-17
 
 [extra]
-local_post_image="meditationsCubiques.jpg"
+local_post_image="meditationsCubiques_thumbnail.jpg"
 
 [taxonomies]
 tags=["poésie", "rubik's cube"]

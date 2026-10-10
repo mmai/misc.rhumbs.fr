@@ -5,7 +5,7 @@ draft=false
 date=2026-09-27T15:00:00+02:00
 
 [extra]
-local_post_image="gazStationTwinPeaks.webp"
+local_post_image="gazStationTwinPeaks_thumbnail.webp"
 
 [taxonomies]
 tags=["lectures", "TwinPeaks", "David Lynch", "weekly"]

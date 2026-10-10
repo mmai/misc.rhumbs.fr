@@ -4,7 +4,7 @@ id=12
 date=2024-09-03
 
 [extra]
-local_post_image="reflexionsSurLesCauses.jpg"
+local_post_image="WeilConjectures_thumbnail.jpg"
 
 [taxonomies]
 tags=["personnel", "lectures", "philosophie", "mathematiques", "voyages", "Grothendieck"]

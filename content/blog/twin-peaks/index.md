@@ -5,7 +5,7 @@ draft=false
 date=2026-09-19T10:02:00+02:00
 
 [extra]
-local_post_image="secretDiaryOfLauraPalmer.jpg"
+local_post_image="secretDiaryOfLauraPalmer_thumbnail.jpg"
 
 [taxonomies]
 tags=["lectures", "TwinPeaks", "David Lynch", "weekly"]
