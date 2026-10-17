@@ -17,6 +17,11 @@ const MAX_MESSAGE = 5000;
 const PAGE_PATH_RE = /^(blog|microblog)\/[A-Za-z0-9._:+-]+\/index\.md$/;
 
 export async function onRequestPost({ request, env }) {
+  if (!env.GITHUB_TOKEN || !env.GITHUB_REPO) {
+    console.error("Missing GITHUB_TOKEN or GITHUB_REPO environment variable");
+    return page(500, "Les commentaires ne sont pas configurés sur ce site.");
+  }
+
   let form;
   try {
     form = await request.formData();
@@ -65,9 +70,11 @@ export async function onRequestPost({ request, env }) {
   // The page must exist on the base branch.
   const pageRes = await gh(`/contents/content/${encodePath(pagePath)}?ref=${base}`);
   if (pageRes.status === 404) {
+    console.error(`GitHub 404 for content/${pagePath} on ${env.GITHUB_REPO}@${base}`);
     return page(400, "Page inconnue.", backUrl);
   }
   if (!pageRes.ok) {
+    console.error(`GitHub ${pageRes.status} for content/${pagePath}: ${await pageRes.text()}`);
     return page(502, "Erreur lors de l'enregistrement du commentaire.", backUrl);
   }
 
