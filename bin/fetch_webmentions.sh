@@ -2,7 +2,7 @@
 set -euo pipefail
 
 DOMAIN="misc.rhumbs.fr"
-TOKEN="OPqTpC4aDiYHTphMx5z1xw"
+TOKEN="${WEBMENTIONSIO_API_TOKEN:?WEBMENTIONSIO_API_TOKEN must be set}"
 
 ROOT="$(cd "$(dirname "$0")" && pwd)/.."
 DATA_DIR="${ROOT}/content/webmentions"

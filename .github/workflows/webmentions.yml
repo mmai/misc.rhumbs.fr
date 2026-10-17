@@ -13,6 +13,8 @@ jobs:
         uses: actions/checkout@master
 
       - name: Fetch webmentions
+        env:
+          WEBMENTIONSIO_API_TOKEN: ${{ secrets.WEBMENTIONSIO_API_TOKEN }}
         run: ./bin/fetch_webmentions.sh
 
       - name: Commit to repository
