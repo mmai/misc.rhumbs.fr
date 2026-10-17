@@ -317,6 +317,7 @@ allowed_domains = [
   ] },
   { directive = "script-src", domains = [
     "'self'",
+    "https://challenges.cloudflare.com",
   ] },
   { directive = "style-src", domains = [
     "'self'",
@@ -325,6 +326,7 @@ allowed_domains = [
     "player.vimeo.com",
     "https://www.youtube-nocookie.com",
     "https://pictures.rhumbs.fr",
+    "https://challenges.cloudflare.com",
   ] },
 ]
 
@@ -380,6 +382,16 @@ domain = "misc.rhumbs.fr"
 
 # The maximum number of mentions to retrieve. Defaults to 30.
 # max_webmentions = 30 
+
+# Comments stored in git: the form posts to the /api/comment Pages Function (functions/api/comment.js),
+# which opens a pull request adding <page bundle>/comments/<timestamp>-<id>.json.
+# Can be disabled on a page with `git_comments = false` in its [extra] front matter.
+[extra.git_comments]
+enable = true
+endpoint = "/api/comment"
+# Cloudflare Turnstile site key (also set TURNSTILE_SECRET on Pages, and allow
+# https://challenges.cloudflare.com in the script-src and frame-src entries of `allowed_domains`)
+turnstile_sitekey = "0x4AAAAAAFZiPC8zsERWCzg6"
 
 # giscus support for comments. https://giscus.app
 # Setup instructions: https://welpo.github.io/tabi/blog/comments/#setup
