@@ -17,40 +17,53 @@ const MAX_MESSAGE = 5000;
 const PAGE_PATH_RE = /^(blog|microblog)\/[A-Za-z0-9._:+-]+\/index\.md$/;
 
 export async function onRequestPost({ request, env }) {
+  // Trim values: a stray space in a dashboard variable breaks the GitHub URLs.
+  env = Object.fromEntries(
+    Object.entries(env).map(([k, v]) => [k, typeof v === "string" ? v.trim() : v]),
+  );
+
+  // The form script asks for JSON; without JavaScript we answer with a small HTML page.
+  const wantsJson = (request.headers.get("Accept") || "").includes("application/json");
+  let backUrl = "/";
+  const reply = (status, text) =>
+    wantsJson
+      ? Response.json({ ok: status < 300, message: text }, { status })
+      : page(status, text, backUrl);
+
   if (!env.GITHUB_TOKEN || !env.GITHUB_REPO) {
     console.error("Missing GITHUB_TOKEN or GITHUB_REPO environment variable");
-    return page(500, "Les commentaires ne sont pas configurés sur ce site.");
+    return reply(500, "Les commentaires ne sont pas configurés sur ce site.");
   }
 
   let form;
   try {
     form = await request.formData();
   } catch {
-    return page(400, "Requête invalide.");
+    return reply(400, "Requête invalide.");
   }
 
   // Honeypot: hidden field that humans leave empty.
   if (form.get("website_confirm")) {
-    return page(200, "Merci ! Votre commentaire sera publié après modération.");
+    return reply(200, "Merci ! Votre commentaire sera publié après modération.");
   }
 
   const pagePath = str(form.get("page"));
   const name = str(form.get("name"));
   const url = str(form.get("url"));
   const message = str(form.get("message"));
-  const backUrl = safeBackUrl(str(form.get("back")), request.url);
+  backUrl = safeBackUrl(str(form.get("back")), request.url);
 
   if (!PAGE_PATH_RE.test(pagePath) || pagePath.includes("..")) {
-    return page(400, "Page inconnue.", backUrl);
+    return reply(400, "Page inconnue.");
   }
   if (!name || name.length > MAX_NAME) {
-    return page(400, `Le nom est obligatoire (${MAX_NAME} caractères max).`, backUrl);
+    return reply(400, `Le nom est obligatoire (${MAX_NAME} caractères max).`);
   }
   if (!message || message.length > MAX_MESSAGE) {
-    return page(400, `Le message est obligatoire (${MAX_MESSAGE} caractères max).`, backUrl);
+    return reply(400, `Le message est obligatoire (${MAX_MESSAGE} caractères max).`);
   }
   if (url && (url.length > MAX_URL || !/^https?:\/\/[^\s]+$/i.test(url))) {
-    return page(400, "Le site web doit être une adresse http(s).", backUrl);
+    return reply(400, "Le site web doit être une adresse http(s).");
   }
 
   if (env.TURNSTILE_SECRET) {
@@ -60,7 +73,7 @@ export async function onRequestPost({ request, env }) {
       request.headers.get("CF-Connecting-IP"),
     );
     if (!ok) {
-      return page(403, "Vérification anti-spam échouée, veuillez réessayer.", backUrl);
+      return reply(403, "Vérification anti-spam échouée, veuillez réessayer.");
     }
   }
 
@@ -71,11 +84,11 @@ export async function onRequestPost({ request, env }) {
   const pageRes = await gh(`/contents/content/${encodePath(pagePath)}?ref=${base}`);
   if (pageRes.status === 404) {
     console.error(`GitHub 404 for content/${pagePath} on ${env.GITHUB_REPO}@${base}`);
-    return page(400, "Page inconnue.", backUrl);
+    return reply(400, "Page inconnue.");
   }
   if (!pageRes.ok) {
     console.error(`GitHub ${pageRes.status} for content/${pagePath}: ${await pageRes.text()}`);
-    return page(502, "Erreur lors de l'enregistrement du commentaire.", backUrl);
+    return reply(502, "Erreur lors de l'enregistrement du commentaire.");
   }
 
   const now = new Date();
@@ -107,10 +120,10 @@ export async function onRequestPost({ request, env }) {
     );
   } catch (e) {
     console.error(e);
-    return page(502, "Erreur lors de l'enregistrement du commentaire.", backUrl);
+    return reply(502, "Erreur lors de l'enregistrement du commentaire.");
   }
 
-  return page(200, "Merci ! Votre commentaire sera publié après modération.", backUrl);
+  return reply(200, "Merci ! Votre commentaire sera publié après modération.");
 }
 
 function github(env) {

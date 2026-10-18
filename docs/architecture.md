@@ -26,6 +26,7 @@ Build
 - Branch control
   - Production branch: main
   - Automatic deployments: Enabled
+  - (edit -> preview branch: None)
 - Build watch paths
   - Include paths: \*
 - Build system version: Version 3
@@ -33,9 +34,12 @@ Build
 
 Variables and secrets
 
-| Type | Name         | Value  |
-| ---- | ------------ | ------ |
-| Text | ZOLA_VERSION | 0.23.6 |
+| Type | Name             | Value                                                                                 |
+| ---- | ---------------- | ------------------------------------------------------------------------------------- |
+| Text | ZOLA_VERSION     | 0.23.6                                                                                |
+| Text | GITHUB_REPO      | mmai/misc.rhumbs.fr                                                                   |
+| Text | GITHUB_TOKEN     | (from github > profile > settings > credentials > fine grained personal access token) |
+| Text | TURNSTILE_SECRET | (from Cloudflare Turnstile widgets)                                                   |
 
 Runtime
 
